@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    @apply appearance-none;
+  }
+}
+
+.font-family {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.gradient {
+  background: rgb(99, 72, 254);
+  background: linear-gradient(
+    177deg,
+    rgba(99, 72, 254, 1) 0%,
+    rgba(97, 5, 149, 1) 100%
+  );
+}
